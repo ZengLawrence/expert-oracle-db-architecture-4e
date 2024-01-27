@@ -4,3 +4,6 @@
 # Modify for Oracle Free version
 
 docker exec oracle-23c ./setPassword.sh foo
+
+# copy to container
+docker cp ch00/ a46cb192f40c:/home/oracle/ch00
