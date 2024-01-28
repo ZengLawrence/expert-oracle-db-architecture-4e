@@ -10,3 +10,7 @@ sqlplus scott/tiger@localhost:1521/FREEPDB1
 define PDB=FREEPDB1
 -- Switch containers to the PDB
 alter session set container=&&PDB;
+
+# switch connection
+connect eoda/foo@FREEPDB1
+connect scott/tiger@FREEPDB1
