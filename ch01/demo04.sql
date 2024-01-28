@@ -3,12 +3,13 @@
 
 -- Need to first be connected as SYSTEM in your PDB (do not connect to the root container). 
 
-define PDB=high
-define system_user=admin
+define PDB=FREEPDB1
+define system_user=system
+-- update password before running script
 define system_user_pwd=F00bar_F00bar
 -- If the DBA role isn't grantable when connected to your PDB, then use the PDB_DBA role.
---define role=DBA
-define role=PDB_DBA
+define role=DBA
+--define role=PDB_DBA
 
 conn &&system_user/&&system_user_pwd@&&pdb
 
