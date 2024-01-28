@@ -1,6 +1,6 @@
 -- Solving Problems Simply
 -- Define PDB that Scott user exists in.
-define PDB=high
+define PDB=FREEPDB1
 
 set echo on
 
