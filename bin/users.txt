@@ -1,0 +1,4 @@
+SYS: This is an Oracle-created user that has all database privileges. I’ll use this to start/stop the database, add tablespaces, modify initialization parameters, and so on.
+SYSTEM: This is an Oracle-created user that has elevated database privileges. I’ll use this to create users, grant privileges, and so on.
+EODA: This is a user that I created that has a variety of special database privileges granted to it. These privileges are required to demonstrate various concepts.
+SCOTT: This is a user that I created using scripts provided by Oracle. Historically, this user has been used to explain simple database concepts and is the owner of the EMP and DEPT tables.
