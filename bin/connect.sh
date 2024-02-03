@@ -4,6 +4,7 @@ docker exec -it oracle-23c sqlplus pdbadmin/foo@FREEPDB1
 docker exec -it oracle-23c sqlplus scott/tiger@FREEPDB1
 
 docker exec -it oracle-23c bash
+sqlplus / as sysdba
 sqlplus eoda/foo@FREEPDB1
 sqlplus scott/tiger@localhost:1521/FREEPDB1
 
