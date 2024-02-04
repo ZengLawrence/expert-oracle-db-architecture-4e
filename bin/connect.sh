@@ -16,3 +16,12 @@ alter session set container=&&PDB;
 # switch connection
 connect eoda/foo@FREEPDB1
 connect scott/tiger@FREEPDB1
+
+# fix spfile
+!rm $ORACLE_HOME/dbs/spfileFREE.ora
+startup
+show parameter spfile;
+create spfile from pfile;
+startup force;
+show parameter target;
+alter system set memory_target=368M scope=spfile;
