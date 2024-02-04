@@ -8,3 +8,5 @@ shm              64M     0   64M   0% /dev/shm
 Lowest amount: memory_target=368M
 SQL> startup force;
 ORA-00845: The Automatic Memory Management (AMM) feature encountered a problem allocating memory.
+
+And unable to change shm.
