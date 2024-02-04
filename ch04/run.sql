@@ -1,4 +1,4 @@
-connect eoda/foo@PDB1
+connect eoda/foo@FREEPDB1
 
 @stats
 @single_load

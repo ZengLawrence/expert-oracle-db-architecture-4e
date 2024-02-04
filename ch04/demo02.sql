@@ -1,6 +1,6 @@
 -- Using PGA_AGGREGATE_TARGET to Control Memory Allocation
 
-conn eoda/foo@PDB1
+conn eoda/foo@FREEPDB1
 
 set echo on
 
