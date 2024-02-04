@@ -10,3 +10,7 @@ SQL> startup force;
 ORA-00845: The Automatic Memory Management (AMM) feature encountered a problem allocating memory.
 
 And unable to change shm.
+
+---
+Need to change mode on gen_load.sh to 777 before copying.
+chmod 744 ch04/gen_load.sh
