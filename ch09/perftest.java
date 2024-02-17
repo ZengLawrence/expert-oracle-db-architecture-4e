@@ -10,7 +10,7 @@ public class perftest
   {
     DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
     Connection con = DriverManager.getConnection
-                  ("jdbc:oracle:thin:@//localhost.localdomain:1521/PDB1", "eoda", "foo");
+                  ("jdbc:oracle:thin:@//localhost.localdomain:1521/FREEPDB1", "eoda", "foo");
     Integer iters = new Integer(arr[0]);
     Integer commitCnt = new Integer(arr[1]);
     con.setAutoCommit(false);

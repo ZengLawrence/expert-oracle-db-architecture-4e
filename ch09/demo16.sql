@@ -54,8 +54,8 @@ print x
 
 -- After finished, drop the small undo tablespace.
 disconnect
-connect eoda/foo@PDB1
+connect eoda/foo@FREEPDB1
 alter system set undo_tablespace = UNDOTBS1;
 disconnect
-connect eoda/foo@PDB1
+connect eoda/foo@FREEPDB1
 drop tablespace undo_small including contents and datafiles;
