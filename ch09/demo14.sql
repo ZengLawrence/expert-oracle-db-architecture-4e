@@ -36,6 +36,8 @@ select used_ublk
                              )
                 );
 
+commit;
+
 update t set indexed = lower(indexed);
 
 select used_ublk
