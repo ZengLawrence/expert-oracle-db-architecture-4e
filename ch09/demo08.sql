@@ -1,6 +1,7 @@
 -- Setting NOLOGGING on an Index
 
 set echo on
+set serverout on
 
 select log_mode from v$database;
 create index t_idx on t(object_name);
