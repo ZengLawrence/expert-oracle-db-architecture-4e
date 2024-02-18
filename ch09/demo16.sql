@@ -3,7 +3,7 @@
 set echo on
   
 create undo tablespace undo_small
-  datafile '/tmp/undo.dbf' size 4m
+  datafile '/tmp/undo.dbf' size 8m
   autoextend off;
 
 drop table big purge;
