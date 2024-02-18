@@ -1,6 +1,7 @@
 -- Block Cleanout
 
 set echo on
+set serverout on
 
 drop table t purge;
 
