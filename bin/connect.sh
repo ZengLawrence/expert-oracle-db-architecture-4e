@@ -9,6 +9,9 @@ sqlplus / as sysdba
 sqlplus eoda/foo@FREEPDB1
 sqlplus scott/tiger@localhost:1521/FREEPDB1
 
+# commonly used logins
+docker exec -it oracle-23c sqlplus eoda/foo@FREEPDB1
+
 # in sqlplus
 define PDB=FREEPDB1
 -- Switch containers to the PDB
