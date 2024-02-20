@@ -14,6 +14,6 @@ commit;
 select * from ora$ptt_temp2;
 
 disconnect;
-connect eoda/foo@PDB1
+connect eoda/foo@FREEPDB1
 select * from ora$ptt_temp2;
 
