@@ -10,7 +10,7 @@ hashing using SHA2_512 version v1;
 
 insert into ledger values(1,'HEIDI',1);
 
-delete from ledger
+delete from ledger;
 
 select * from user_blockchain_tables;
 
