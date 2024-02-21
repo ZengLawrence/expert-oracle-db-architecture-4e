@@ -7,3 +7,7 @@ docker exec oracle-23c ./setPassword.sh foo
 
 # copy to container
 docker cp ch00/ a46cb192f40c:/home/oracle/ch00
+
+# commonly used docker commands
+docker start a46cb192f40c
+docker stop a46cb192f40c
