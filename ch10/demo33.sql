@@ -2,6 +2,7 @@
 
 set echo on
 
+drop table people;
 drop table people_tab;
 
 create table people_tab
