@@ -23,7 +23,7 @@ exec dbms_monitor.session_trace_disable;
 pause
 
 disconnect
-connect eoda/foo@PDB1
+connect eoda/foo@FREEPDB1
 
 exec dbms_monitor.session_trace_enable;
 

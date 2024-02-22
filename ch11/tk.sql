@@ -9,5 +9,5 @@ and i.name='Diag Trace';
 disconnect
 !tkprof &TRACE ./tk.prf &1
 -- connect /
-connect eoda/foo@PDB1
+connect eoda/foo@FREEPDB1
 edit tk.prf
