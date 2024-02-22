@@ -1,6 +1,11 @@
 drop table t purge;
 drop sequence s;
 
+create tablespace assm
+datafile '/tmp/ts_assm.dbf'
+size 1m autoextend on next 1m
+segment space management auto;
+
 create table t tablespace assm
 as
 select 0 id, owner, object_name, subobject_name,
