@@ -28,7 +28,8 @@ where emp.deptno = dept.deptno
 and dept.dname = 'SALES'
 /
 
-select emp.*
+/* index hint required to pick up bitmap index */
+select /*+ index( emp emp_bm_idx ) */ emp.*
 from emp, dept
 where emp.deptno = dept.deptno
 and dept.dname = 'SALES'
