@@ -30,3 +30,4 @@ update t  set gender = chr(mod(rownum,256));
 exec dbms_stats.gather_table_stats( user, 'T', cascade=>TRUE );
 set autotrace traceonly explain
 select * from t t1 where object_id = 42;
+set autotrace off
