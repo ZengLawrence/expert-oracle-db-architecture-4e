@@ -15,3 +15,4 @@ exec dbms_stats.gather_table_stats(user,'T');
 set autotrace trace explain;
 select count(*) from t where x < 50;
 select count(*) from t where x < 1000000;
+set autotrace off
