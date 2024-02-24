@@ -5,7 +5,6 @@ drop table t purge;
 set echo on
 
 create table t ( x number, y number );
-insert into t ( x )
 
 insert into t (x)
 select to_number(rpad('9',rownum*2,'9'))
