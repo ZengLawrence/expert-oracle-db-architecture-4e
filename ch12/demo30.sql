@@ -15,6 +15,8 @@ insert into t values ( 1, 'hello world' );
 
 commit;
 
+set serverout on
+
 declare
   l_clob  clob;
   cursor c is select id from t;
