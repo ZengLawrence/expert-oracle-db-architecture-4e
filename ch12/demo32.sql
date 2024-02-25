@@ -25,6 +25,7 @@ set linesize 300
 
 column json_data format a84
 
+-- not returning raw / binary format as stated in the book
 select * from t;
 
 set linesize 300
