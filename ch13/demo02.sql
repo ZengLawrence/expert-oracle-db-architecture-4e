@@ -6,8 +6,8 @@ drop table big_table2;
 drop tablespace big1 including contents and datafiles;
 drop tablespace big2 including contents and datafiles;
 
-create tablespace big1 datafile size 1500m;
-create tablespace big2 datafile size 1500m;
+create tablespace big1 datafile size 1700m;
+create tablespace big2 datafile size 1700m;
 
 create table big_table1
   ( ID, OWNER, OBJECT_NAME, SUBOBJECT_NAME,
