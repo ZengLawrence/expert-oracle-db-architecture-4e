@@ -41,16 +41,6 @@ update range_example
 
 pause;
 
-select rowid
-from range_example
-where range_key_column = to_date('31-dec-2013','dd-mon-yyyy');
-
-alter table range_example enable row movement;
-
-update range_example
-   set range_key_column = to_date('01-jan-2014','dd-mon-yyyy')
-   where range_key_column = to_date('31-dec-2013','dd-mon-yyyy');
-
 select rowid  from range_example
       where range_key_column = to_date('31-dec-2020','dd-mon-yyyy');
  
