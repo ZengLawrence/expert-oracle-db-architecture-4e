@@ -60,7 +60,7 @@ set autotrace off;
 
 pause;
 
-drop index t_idx
+drop index t_idx;
 
 create index t_idx
   on t(owner,object_type,object_name)
