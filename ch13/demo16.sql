@@ -6,12 +6,6 @@ drop table partitioned purge;
 
 set echo on
 
-drop table fy_2020 purge;
-drop table fy_2022 purge;
-drop table partitioned purge;
-
-set echo on
-
 CREATE TABLE partitioned
     ( timestamp date,
       id        int
