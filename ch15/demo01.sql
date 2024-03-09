@@ -2,6 +2,8 @@
 
 DROP TABLE dept_ext;
 
+create or replace directory ext_tab_dir as '/tmp';
+
 CREATE TABLE dept_ext
        (DEPTNO     number(2),
         DNAME  varchar2(14),
