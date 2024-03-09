@@ -1,6 +1,6 @@
 -- Monitoring the Filesystem through SQL 
 
-create or replace directory exec_dir as '/orahome/oracle/bin';
+create or replace directory exec_dir as '/home/oracle/bin';
 
 grant execute on directory exec_dir to eoda;
 
