@@ -5,7 +5,7 @@ host mkdir -p /tmp/base
 host echo 'base row1 col1, base row1 col2' | gzip > /tmp/base/filebase.csv.gz
 host echo 'base row2 col1, base row2 col2' | gzip >> /tmp/base/filebase.csv.gz
 
-create or replace directory exec_dir as '/orahome/oracle/bin';
+create or replace directory exec_dir as '/home/oracle/bin';
 create or replace directory data_dir as '/tmp/base';
 
 drop table csv;
