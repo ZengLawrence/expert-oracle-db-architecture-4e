@@ -1,7 +1,7 @@
 -- Trimming Characters Out of a File
 
 create or replace directory data_dir as '/tmp';
-create or replace directory exec_dir as '/orahome/oracle/bin';
+create or replace directory exec_dir as '/home/oracle/bin';
 
 drop table csv2;
 
